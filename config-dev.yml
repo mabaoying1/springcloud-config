@@ -1,2 +1,3 @@
-origin:
- config-dev
+config:
+  info:"origin分支，springcloud-config/config-dev.yml,version=1"
+
