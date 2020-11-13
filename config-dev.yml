@@ -1,1 +1,3 @@
-config-dev
+config:
+  info:"master分支，springcloud-config/config-dev.yml,version=1"
+
