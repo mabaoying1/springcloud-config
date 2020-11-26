@@ -1,10 +1,10 @@
 config:
   info: "master branch,springcloud-config/config-dev.yml,version=8"
-spring:
-  datasource:
-    type: com.alibaba.druid.pool.DruidDataSource      
-    driver-class-name: org.gjt.mm.mysql.Driver        
-    jdbc-url: jdbc:mysql://localhost:3306/test2?useUnicode=true&characterEncoding=utf-8&useSSL=false
+base:
+  mysql:
+    ip: 127.0.0.1      
+    port: 3306       
+    db: test
     username: root
     password: 123456
 
